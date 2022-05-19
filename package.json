@@ -1,0 +1,35 @@
+{
+  "name": "@only_liru/mfcli",
+  "version": "1.0.0",
+  "description": "module federation react less",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mfcli": "./bin/index.js"
+  },
+  "keywords": [
+    "moduleFederation",
+    "react",
+    "less"
+  ],
+  "author": "only_liru@sina.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "commander": "^9.2.0",
+    "download-git-repo": "^3.0.2",
+    "esm": "^3.2.25",
+    "figlet": "^1.5.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.4",
+    "lodash": "^4.17.21",
+    "ncp": "^2.0.0",
+    "open": "^8.4.0",
+    "ora": "^5.4.1",
+    "pkg-install": "^1.0.0",
+    "watch": "^0.13.0"
+  }
+}
