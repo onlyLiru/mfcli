@@ -8,5 +8,4 @@ program
   .description("init project")
   .action(require("../lib/init"));
 
-// 解析主进程的参数
 program.parse(process.argv);
